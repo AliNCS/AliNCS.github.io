@@ -1,0 +1,31 @@
+.terminal {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: monospace;
+  color: #33CC33;
+  width: 80%;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal span {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.blinking-cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
